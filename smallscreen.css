@@ -1,0 +1,377 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    margin:0;
+    padding:0;
+}
+.nav{
+    width:70px;
+    height:100%;
+    position: relative;
+    float: left;
+    background-color:white;
+}
+.nav_gora{
+    display:flex;
+    align-items: center;
+    padding-left:5px;
+    position: relative;
+    top:0;
+    width:calc(100% - 5px);
+    height:60px;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+.nav_gora_main{
+    width: 98%;
+    height: 80%;
+}
+.nav_img{
+    position:relative;
+    height: 48px;
+    width: 48px;
+    float:left;
+}
+.imga{
+    border-radius: 100%;
+}
+.nav_text{
+    float:left;
+    position: relative;
+    display:none;
+}
+.nav_text p{
+    position:relative;
+    margin-block-start:0;
+    margin-block-end:0;
+    top:10px;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav_icon{
+    position:relative;
+    height: 100%;
+    width: 50%;
+    float:right;
+    display:none;
+}
+.nav_icon_item{
+    cursor: pointer;
+    position:relative;
+    float: right;
+    background-color: rgba(0,0,0,0.1);
+    margin-left: 5%;
+    width:30px;
+    height: 30px;
+    border-radius: 100%;
+    margin-top: 5%;
+    display: none;
+    justify-content: center;
+    text-align: center;
+}
+.nav_icon_item:hover{
+    background-color: rgba(0,0,0,0.2);
+}
+.nav_imgp{
+    top:15%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.nav_sear{
+    cursor: text;
+    position: relative;
+    height:0px;
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav_sear_main{
+    display: flex;
+    background-color: rgba(0,0,0,0.1);
+    position:relative;
+    width:96%;
+    height:50%;
+    border-radius: 10px;
+    display: none;
+}
+.nav_sear_main p{
+    left: 10px;
+    position: relative;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    display: flex;
+    top:0.4vh;
+    display: none;
+}
+.nav_main{
+    position: relative;
+    width:100%;
+    height:calc(100% - 170px);
+    overflow: hidden;
+}
+.nav_main:hover{
+    overflow-y: hidden;
+}
+.nav_main_konw{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    width:100%;
+    height: 55px;
+    transition: all 0.3s ease;
+}
+.nav_main_konw_img{
+    left:5px;
+    position: relative;
+    height: 100%;
+    width:60px;
+    float:left;
+}
+.nav_main_konw_text{
+    position: relative;
+    height: 100%;
+    left:5px;
+    width:200px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    float:left;
+    display: none;
+}
+.nav_main_konw_opt{
+    position:relative;
+    top: calc(50% - 15px);
+    float:left;
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    background-color:white;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    transition: all 0.3s ease;
+}
+.nav_main_konw_opt:hover{
+    background-color: rgba(0,0,0,0.1);
+}
+.nav_main_konw_text p{
+    margin-block-start: 0.8em;
+    margin-block-end: 0.2em;
+}
+#wiado{
+    margin:0;
+    font-size: 0.7em;
+}
+.nav_main_konw:hover{
+    background-color: rgba(0,0,0,0.1);
+}
+.nav_main_konw:hover .nav_main_konw_opt{
+    display: none;
+}
+.nav_dol{
+    position: relative;
+    border: 1px solid rgba(0,0,0,0.1);
+    width:calc(100% - 2px);
+    height:48px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    display: none;
+}
+.aktywny{
+    position: relative;
+    width:10px;
+    height:10px;
+    top: 40px;
+    left: -10px;
+    float:left;
+    background-color: greenyellow;
+    border-radius: 100%;
+}
+
+
+.main{
+    width:calc(100% - 70px);
+    height:100vh;
+    position: relative;
+    float: left;
+    transition: all 0.2s ease;
+}
+.main_top{
+    position: relative;
+    width: calc(100% - 2px);
+    height:58px;
+    border: 1px solid rgba(0,0,0,0.1);
+    box-shadow: 0px 8px 36px -15px rgba(66, 68, 90, 1);
+}
+
+.main_icon_item{
+    cursor: pointer;
+    position:relative;
+    float: right;
+    background-color: rgba(0,0,0,0.1);
+    margin-left: 20px;
+    width:30px;
+    height: 30px;
+    border-radius: 100%;
+    top: 25%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.imieinazw{
+    float: left;
+    position:relative;
+    width:calc(100% - 165px);
+    height:100%;
+}
+.prof{
+    left: 5px;
+    top: 5%;
+    position: relative;
+    float: left;
+}
+.wazne{
+    position: relative;
+    height: 20px;
+    float: left;
+    left: 20px;
+    font-weight: bold;
+    font-size: small;
+    word-break: break-all;
+}
+.status{
+    left: 72px;
+    top: 20px;
+    font-size: small;
+    position:absolute;
+    
+}
+.main_icon{
+    float: left;
+    position:relative;
+    height: 100%;
+    width: 150px;
+    margin-right: 15px;
+    float:right;
+}
+.main_main{
+    display: flex;
+    flex-direction: column-reverse;
+    border-left: 1px solid rgba(0,0,0,0.2);
+    position:relative;
+    width: 100%;
+    height: calc(100vh - 111px);
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.wiado{
+    word-break: break-all;
+    margin-top: 5px;
+    margin-left: auto;
+    max-width: calc(100% - 120px);
+    clear:both;
+    padding:10px;
+    border-radius: 20px;
+    background-color: royalblue;
+    color: white;
+}
+.wiado_ktos_img{
+    position:relative;
+    float:left;
+    width:38px;
+    height: 38px;
+}
+.wiado_ktos{
+    margin-top: 5px;
+    max-width: calc(100% - 120px);
+    clear:both;
+}
+.wiado_ktos_text{
+    position: relative;
+    word-break: break-all;
+    float: left;
+    max-width: calc(100% - 38px);
+    border-radius: 20px;
+    background-color: rgba(0,0,0,0.1);
+    color:black;
+    padding:10px;
+}
+
+.main_dol{
+    position:relative;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    
+}
+.wysylanie{
+    width:calc(100% - 120px);
+    position:relative;
+    height: 100%;
+}
+.wysylanie button{
+    position: relative;
+    float: right;
+    margin-right: 5px;
+    top: 5px;
+    width:40px;
+    height:40px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+.wysylanie button img{
+    position: relative;
+    right: 5px;
+    border-radius: 100%;
+}
+.main_dol input{
+    position: relative;
+    margin-left: auto;
+    top: 9px;
+    left:4px;
+    width:calc(100% - 60px);
+    height: 32px;
+    background-color: rgba(0,0,0,0.1);
+    border:none;
+    border-radius: 30px;
+    padding-left: 10px;
+}
+.main_dol input:focus{
+    outline:none;
+}
+.ikonki{
+    width:120px;
+    height: 50px;
+    position: relative;
+}
+.ikony{
+    margin-left: 5px;
+    position:relative;
+    top: 30%; 
+    height:40%;
+    background-color: rgba(0,0,0,0.1);
+}
+
+
+.rgt{
+    width:320px;
+    height:100%;
+    position: relative;
+    float: left;
+    background-color: antiquewhite;
+    overflow: hidden;
+    overflow-y: scroll;
+    display:none;
+}
+.rgt.active{
+    display:block;
+}
+.main.active{
+    width:calc(100% - 390px);
+}
